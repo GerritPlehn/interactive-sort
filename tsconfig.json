@@ -6,6 +6,7 @@
       "node_modules/@types"
     ],
     "sourceMap": true,
+    "module": "ES2020",
     "outDir": "dist"
   },
   "extends": "@tsconfig/node18/tsconfig.json"

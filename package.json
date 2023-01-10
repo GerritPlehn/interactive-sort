@@ -10,6 +10,7 @@
     "build": "tsc",
     "dev": "npm run build && npm run start"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -27,5 +28,9 @@
   "lint-staged": {
     "*.ts": "eslint --cache --fix",
     "*.{ts,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "inquirer": "^9.1.4"
   }
 }
