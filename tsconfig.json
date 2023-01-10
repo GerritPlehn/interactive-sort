@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      /* Specify multiple folders that act like './node_modules/@types'. */
+      "@types",
+      "node_modules/@types"
+    ],
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "extends": "@tsconfig/node18/tsconfig.json"
+}
